@@ -10,15 +10,6 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/\bun\w*ing\b/)
-
-  # text_array = text.split(" ")
-  # new_array = []
-  # text_array.each do |word|
-  #   if word.start_with?("un") && word.end_with?("ing")
-  #     new_array << word
-  #   end
-  # end
-  # new_array
 end
 
 def words_five_letters_long(text)
