@@ -25,8 +25,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
     a = false 
   end
   
-  if text[text.length - 1] == /[.,!?]/
-    a = true
+  if !(text[text.length - 1] == /[.,!?]/)
+    a = false
   else 
     a = false 
   end
