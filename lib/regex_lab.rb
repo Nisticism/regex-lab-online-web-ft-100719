@@ -34,5 +34,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.match(/\d{7}/)
+  phone.match(/\A\d{7}\z/)
 end
