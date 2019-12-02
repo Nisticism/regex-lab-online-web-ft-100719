@@ -14,7 +14,7 @@ def words_starting_with_un_and_ending_with_ing(text)
   text_array = text.split(" ")
   new_array = []
   text_array.each do |word|
-    if word.starts_with?("un")
+    if word.start_with?("un")
       new_array += word
     end
   end
