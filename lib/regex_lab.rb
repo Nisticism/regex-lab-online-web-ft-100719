@@ -9,7 +9,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  # text.scan(/\w[\Aun\Zing]/)
+  text.scan(/\Aun/)
   
   text_array = text.split(" ")
   new_array = []
