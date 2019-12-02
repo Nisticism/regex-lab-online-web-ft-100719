@@ -14,12 +14,11 @@ def words_starting_with_un_and_ending_with_ing(text)
   text_array = text.split(" ")
   new_array = []
   text_array.each do |word|
-    if word[0-1] == 'un' && word[(word.length-3)-(word.length-1)] == 'ing'
+    if word[0-1] == 'un'
       new_array += word
     end
   end
   new_array
-  
 end
 
 def words_five_letters_long(text)
